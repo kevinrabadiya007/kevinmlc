@@ -1,0 +1,156 @@
+body {
+  background-color: lightgrey;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: auto;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.d-header {
+  background-color: #fff;
+  display: flex;
+}
+.d-header ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.d-header ul li {
+  padding: 10px;
+  min-width: 100px;
+  box-sizing: border-box;
+}
+.d-header-search {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+.d-header-img {
+  height: 200px;
+  background-color: white;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 10px 0;
+}
+.d-header-img img {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+footer.d-menus-footer {
+  /* margin-top: 10px;
+  min-width: 100px; */
+  width: 100%;
+  /* display: flex; */
+  background-color: #fff;
+    /* box-sizing: border-box; */
+}
+
+div.d-footer-services ul li{
+width: 50%;
+list-style-type: none;
+justify-content: flex-start;
+}
+
+div.d-footer-services1 ul li{
+  width: 50%;
+  list-style-type: none;
+  justify-content: flex-end;
+}
+
+
+
+/* footer.d-menus-footer ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+footer.d-menus-footer ul li {
+  display: flex;
+  min-width: 100px;
+  padding: 5px;
+  box-sizing: border-box;
+} */
+
+.d-main-section {
+  display: flex;
+  margin-left: -5px;
+  margin-right: -5px;
+  
+}
+
+.img-section {
+  width: 25%;
+}
+
+div.d-main-img {
+  /* display: block; */
+  height: 500px;
+  /* width: 200px; */
+  background-color: #fff;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 10px 5px;
+  list-style-type: none;
+  padding: 10px;
+  /* max-width: 260px; */
+}
+
+div.d-main-img img {
+  /* display: block; */
+  width: 100%;
+  object-fit: cover;
+}
+
+div.d-main-caption {
+  word-wrap: break-word;
+  width: 100%;
+  margin: 10px 5px;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+/* div.d-main-caption1 {
+  
+  display: flex;
+  background-color: #fff;
+} */
+
+div.d-mix-images-section{
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  /* flex-direction: row; */
+
+}
+
+div.d-mix-images{
+  background-color: #fff;
+  /* display: flex; */
+  width: 30%;
+  /* flex-wrap: wrap; */
+  /* box-sizing: border-box; */
+}
+
+div.d-mix-text-section{
+  width: 70%;
+  /* padding: 5px;  */
+  /* display: flex; */
+  justify-content: flex-end;
+}
+
+div.d-mix-images img{
+  width: 45%;
+  /* flex-wrap: wrap; */
+
+}
+
+
