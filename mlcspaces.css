@@ -35,7 +35,7 @@ body {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
 }
-.d-logo{
+.d-logo {
   width: 50%;
   padding: 10px 30px;
   margin: 0;
@@ -68,7 +68,6 @@ div.d-menus ul {
   margin: 0;
   align-items: center;
   /* border: 2px solid; */
-  
 }
 
 div.d-menus ul li {
@@ -104,10 +103,9 @@ div.d-menus ul li {
   /* margin: 10px 50px; */
   margin-left: 30px;
   padding-left: 10px;
-  
 }
 
-.d-section-home-title h1{
+.d-section-home-title h1 {
   margin: 0px;
   font-family: sans-serif;
   font-weight: 600;
@@ -118,17 +116,17 @@ div.d-menus ul li {
   line-height: 65px;
 }
 
-.d-text{
-color: #7a7a7a;
+.d-text {
+  color: #7a7a7a;
   font-size: 18px;
   line-height: 30px;
   margin-bottom: 36px;
 }
 
-.d-text a{
-cursor: pointer;
-text-decoration: none;
-outline: none;
+.d-text a {
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
 }
 
 .d-section-home-img {
@@ -144,70 +142,80 @@ outline: none;
   border-radius: 5px;
 }
 
-.search-wrapper{
-  margin: 10px 80px;
-  border: 1px solid;
+.search-wrapper {
+  /* margin: 10px 80px; */
+  margin-bottom: 10px;
+  /* border: 1px solid; */
+  box-shadow: 0 3px 8px 0 RGB(0 0 0/10%);
   border-radius: 50px;
   align-items: center;
   display: flex;
   justify-content: center;
-  
+  box-sizing: border-box;
+  width: 100%;
 }
 
-.select-search{
+.select-search {
+  /* border-color: gray; */
   margin: 10px;
   padding: 10px;
   border-radius: 40px;
   font-size: 14px;
-
+  border-color: lightgray;
+  box-sizing: border-box;
 }
-.search-wrapper button{
+
+.search-wrapper button {
   background-color: #409fff;
   color: #fff;
   font-weight: 900;
+  border: 1px;
 }
 
-.homepage-info{
+.homepage-info {
   width: 100%;
   display: flex;
 }
 
-.homepage-info h1{
+.d-homepage-banner{
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.homepage-info h1 {
   text-align: center;
   width: 100%;
   /* max-width: 100%; */
 }
 
-
-.info-options{
+.info-options {
   width: 100%;
   display: flex;
   box-sizing: border-box;
   /* margin: 10px 80px; */
 }
 
-.main-back{
+.main-back {
   width: 25%;
 }
 
-.main-back img{
+.main-back img {
   width: 100%;
- 
 }
 
-.facilities-info{
+.facilities-info {
   width: 75%;
 }
 
-.kitchen-icon{
+.kitchen-icon {
   width: 25%;
 }
 
-.Furnished-Rooms{
+.Furnished-Rooms {
   width: 25%;
 }
 
-.Maintenance{
+.Maintenance {
   width: 25%;
 }
-
