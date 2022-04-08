@@ -78,21 +78,12 @@ div.d-menus ul li {
   margin: 0;
 }
 
-.d-section {
-  width: 100%;
-  display: flex;
-  /* margin: 10px; */
-}
 
 .d-section-home {
   width: 100%;
   display: flex;
-  /* margin: 10px; */
-  margin-top: 100px;
-  margin-bottom: 100px;
   box-sizing: border-box;
-  margin-right: 100px;
-  margin-left: 100px;
+  padding: 125px 50px;
 }
 
 .d-section-home-title {
@@ -100,9 +91,7 @@ div.d-menus ul li {
   display: flex;
   line-height: 50px;
   font-size: 40px;
-  /* margin: 10px 50px; */
-  margin-left: 30px;
-  padding-left: 10px;
+  padding-right: 50px;
 }
 
 .d-section-home-title h1 {
@@ -119,20 +108,25 @@ div.d-menus ul li {
 .d-text {
   color: #7a7a7a;
   font-size: 18px;
-  line-height: 30px;
+  line-height: 31px;
   margin-bottom: 36px;
+  font-weight: 500;
+  margin-top: 30px;
+  font-family: sans-serif;
 }
 
 .d-text a {
   cursor: pointer;
   text-decoration: none;
   outline: none;
+  color: #409fff;
+  font-weight: 600;
+  font-family: sans-serif;
 }
 
 .d-section-home-img {
   width: 50%;
   display: flex;
-  margin: 10px 50px;
 }
 
 .d-section-home-img img {
@@ -141,27 +135,29 @@ div.d-menus ul li {
   object-fit: cover;
   border-radius: 5px;
 }
-
+.search-options-view {
+ width: 75%;
+}
+.search-button-view {
+ width: 25%;
+}
 .search-wrapper {
-  /* margin: 10px 80px; */
-  margin-bottom: 10px;
-  /* border: 1px solid; */
   box-shadow: 0 3px 8px 0 RGB(0 0 0/10%);
   border-radius: 50px;
-  align-items: center;
   display: flex;
-  justify-content: center;
   box-sizing: border-box;
   width: 100%;
+  padding: 10px 20px;
 }
 
 .select-search {
-  /* border-color: gray; */
-  margin: 10px;
+  /* margin: 10px; */
   padding: 10px;
   border-radius: 40px;
   font-size: 14px;
+  width: 40%;
   border-color: lightgray;
+  margin-right: 20px;
   box-sizing: border-box;
 }
 
@@ -169,7 +165,10 @@ div.d-menus ul li {
   background-color: #409fff;
   color: #fff;
   font-weight: 900;
+  width: 80%;
   border: 1px;
+  border-radius: 40px;
+  padding: 12px;
 }
 
 .homepage-info {
