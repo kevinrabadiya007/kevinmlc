@@ -174,47 +174,74 @@ div.d-menus ul li {
 .homepage-info {
   width: 100%;
   display: flex;
-}
-
-.d-homepage-banner{
-  width: 100%;
-  display: flex;
+  flex-direction: column;
   box-sizing: border-box;
 }
+
 
 .homepage-info h1 {
   text-align: center;
   width: 100%;
+  margin-bottom: 20px;
   /* max-width: 100%; */
 }
 
 .info-options {
-  width: 100%;
+  width: 25%;
   display: flex;
   box-sizing: border-box;
   /* margin: 10px 80px; */
 }
 
+.d-amenities{
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+}
+
 .main-back {
   width: 25%;
+  padding: 40px;
+  display: flex;
 }
 
 .main-back img {
   width: 100%;
+  display: flex;
 }
 
 .facilities-info {
-  width: 75%;
+  width: 25%;
+  display: flex;
+  
 }
 
 .kitchen-icon {
-  width: 25%;
+  width: 100%;
+  padding: 15px;
 }
 
 .Furnished-Rooms {
   width: 25%;
+  display: flex;
 }
 
 .Maintenance {
   width: 25%;
+  display: flex;
+}
+
+.about-spaces-view {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.about-spaces-view h3{
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 34px;
+  font-size: 28px;
+  text-align: center;
+  width: 100%;
 }
